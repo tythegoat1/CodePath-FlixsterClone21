@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CodePath-FlixsterClone</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="movie_poster_image">Movie poster image</string>
+    <string name="movie_title">Movie Title</string>
+    <string name="movie_description">Movie Description</string>
+    <string name="movie_poster">Movie poster</string>
+    <string name="todo">TODO</string>
+</resources>

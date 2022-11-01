@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="12dp">
+
+    <TextView
+        android:id="@+id/movieDetailTitle"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:hint="@string/movie_title"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textColorHint="#757575"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/movieImageIV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:contentDescription="@string/movie_poster"
+        android:padding="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/SimilarMovieRecyclerView"
+        app:layout_constraintEnd_toStartOf="@+id/movieDetailDescription"
+        app:layout_constraintStart_toStartOf="@+id/movieDetailTitle"
+        tools:ignore="ImageContrastCheck"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/movieDetailDescription"
+        android:layout_width="188dp"
+        android:layout_height="158dp"
+        android:hint="@string/movie_description"
+        android:padding="5dp"
+        android:textAlignment="center"
+        android:textColorHint="#757575"
+        app:layout_constraintBottom_toBottomOf="@+id/movieImageIV"
+        app:layout_constraintEnd_toEndOf="@+id/movieDetailTitle" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/SimilarMovieRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:orientation="horizontal"
+        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:spanCount="1"
+        tools:layout_editor_absoluteX="-13dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
