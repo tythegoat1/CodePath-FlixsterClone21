@@ -27,6 +27,7 @@ The following **additional** features are implemented:
 - [ ] List anything else that you can get done to improve the app functionality!
 
 ## Video Walkthrough
+![](https://submissions.us-east-1.linodeobjects.com/and102/WIP5Ff8w.gif)
 
 Here's a walkthrough of implemented user stories:
 https://submissions.us-east-1.linodeobjects.com/and102/WIP5Ff8w.gif
