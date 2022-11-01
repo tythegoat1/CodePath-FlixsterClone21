@@ -36,7 +36,7 @@ Project 3.gif
 GIF created with ...  
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
+[ScreenToGif](https://submissions.us-east-1.linodeobjects.com/and102/WIP5Ff8w.gif) for Windows
 [peek](https://github.com/phw/peek) for Linux. -->
 
 ## Notes
